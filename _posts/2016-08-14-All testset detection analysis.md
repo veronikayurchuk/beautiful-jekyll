@@ -2,7 +2,7 @@
 layout: post
 title: All testset detection analysis
 subtitle: by Veronika Yurchuk
-bigimg: /img/path.jpg
+bigimg: /img/img13.jpg
 show-avatar: false
 ---
 
