@@ -1,7 +1,7 @@
 
 ### We have learned and read a lot about how does CNN work. 
-### However, it was interesting for me to understand why did the ConvNet decide to classify the image to that particular class. What elements did it relly on to chose the class. And actually how does the ConvNet see the images.
-### In order to answer all that question I would use Class Activation Map. More details are here <http://cnnlocalization.csail.mit.edu/>. 
+However, it was interesting for me to understand why did the ConvNet decide to classify the image to that particular class. What elements did it relly on to chose the class. And actually how does the ConvNet see the images.
+In order to answer all that question I would use Class Activation Map. More details are here <http://cnnlocalization.csail.mit.edu/>. 
 
 
 The idea of the method very quickly comes to mind after looking at the next picture, that I found in the link above.
