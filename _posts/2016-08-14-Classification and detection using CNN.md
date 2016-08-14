@@ -13,9 +13,11 @@ Today I will write about my experience with Convolutional Neural Networks! I wil
 
 This is a main post about Classification and Detection mathods using CNN. 
 I decided to go deeper and analyse my whole test set. The analysis about distribution of classes with different certainty of model you may read in 
-*** [Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)***
-The plot obtained a dataframe from second part is in the ***[Part2.2](https://veronikayurchuk.github.io/2016-08-14-Classes-dist-by-probs/)***
-If you are interested in some details or additional information about the training process, please read ***[Part3](https://veronikayurchuk.github.io/2016-08-14-more_about_CNN_training_and_transflearn/)***
+* ***[Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)***
+The plot obtained a dataframe from second part is in the 
+* ***[Part2.2](https://veronikayurchuk.github.io/2016-08-14-Classes-dist-by-probs/)***
+If you are interested in some details or additional information about the training process, please read 
+* ***[Part3](https://veronikayurchuk.github.io/2016-08-14-more_about_CNN_training_and_transflearn/)***
 
 
 
