@@ -1,3 +1,9 @@
+---
+layout: post
+title: The way how ConvNet see the images. CAM algorithm implementation
+subtitle: by Veronika Yurchuk
+bigimg: /img/path.jpg
+---
 
 ### We have learned and read a lot about how does CNN work. 
 However, it was interesting for me to understand why did the ConvNet decide to classify the image to that particular class. What elements did it relly on to chose the class. And actually how does the ConvNet see the images.
