@@ -241,9 +241,9 @@ A copuple of words about transfer learning. I got pretrained model for GoogLeNet
 You may download the dataset here http://human-pose.mpi-inf.mpg.de/
 I have increased learning rate in the last layer by a factor of 10 in comparison with learning rate in previous layers. The gradient descent optimization algorithm was Adam. 
 My learning rate policy was
-* base_lr: 0.0005
+_* base_lr: 0.0005
 * lr_policy: "step"
-* * stepsize: 2000
+* stepsize: 2000_
 
 Moreover, I was able to get 95% accuracy on test set, that is 10% of whole dataset.
 
