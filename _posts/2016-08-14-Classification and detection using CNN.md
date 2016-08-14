@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The way how ConvNet see the images. CAM algorithm implementation
+title: Classification and Detection using CNN for MPII dataset
 subtitle: by Veronika Yurchuk
 bigimg: /img/path.jpg
 show-avatar: false
