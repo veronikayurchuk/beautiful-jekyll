@@ -3,6 +3,7 @@ layout: post
 title: The way how ConvNet see the images. CAM algorithm implementation
 subtitle: by Veronika Yurchuk
 bigimg: /img/path.jpg
+show-avatar: False
 ---
 
 ### We have learned and read a lot about how does CNN work. 
@@ -168,7 +169,7 @@ detections.argmax()
 
 
 
-    9
+9
 
 
 
@@ -179,7 +180,7 @@ print("Class activities is" + " " + str(np.array(action_label)))
 image_description = "Class activities is" + " " + str(np.array(action_label))
 ```
 
-    Class activities is ['music_playing']
+Class activities is ['music_playing']
 
 
 Plotting an input image
