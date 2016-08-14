@@ -3,7 +3,7 @@ layout: post
 title: The way how ConvNet see the images. CAM algorithm implementation
 subtitle: by Veronika Yurchuk
 bigimg: /img/path.jpg
-show-avatar: False
+show-avatar: false
 ---
 
 ### We have learned and read a lot about how does CNN work. 
@@ -65,7 +65,7 @@ Image(filename="/home/veronika/materials/cv/CAM/mod2/mod2.png")
 
 
 
-My code for playing eith CAM.
+My code for playing with CAM.
 
 
 ```python
@@ -157,8 +157,8 @@ for i in range(1024):
 heat_map = cv2.resize(heat_map,(224,224))
 ```
 
-    Shape of weights: (14, 1024)
-    Shape of featuremaps: (1024, 14, 14)
+_Shape of weights: (14, 1024)_
+_Shape of featuremaps: (1024, 14, 14)_
 
 
 
@@ -169,7 +169,7 @@ detections.argmax()
 
 
 
-9
+_9_
 
 
 
@@ -180,7 +180,7 @@ print("Class activities is" + " " + str(np.array(action_label)))
 image_description = "Class activities is" + " " + str(np.array(action_label))
 ```
 
-Class activities is ['music_playing']
+_Class activities is ['music_playing']_
 
 
 Plotting an input image
