@@ -10,6 +10,8 @@ show-avatar: false
 Class distribution by probabilities in all test dataset
 ================
 
+This file is written using R. Just because I love R and it is very easy to visualize any plots with ***ggplot*** library.
+
 ``` r
 data_to_plot = read.csv("/home/veronika/materials/cv/detection/total_classes.csv")
 
