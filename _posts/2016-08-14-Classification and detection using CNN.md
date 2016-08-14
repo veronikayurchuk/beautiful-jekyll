@@ -2,7 +2,7 @@
 layout: post
 title: Classification and Detection using CNN for MPII dataset
 subtitle: by Veronika Yurchuk
-bigimg: /img/path.jpg
+bigimg: /img/img14.jpg
 show-avatar: false
 ---
 
