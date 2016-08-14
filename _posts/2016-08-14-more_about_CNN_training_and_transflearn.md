@@ -1,3 +1,11 @@
+---
+layout: post
+title: More about CNN training and transfer learning
+subtitle: by Veronika Yurchuk
+bigimg: /img/path.jpg
+show-avatar: false
+---
+
 
 # Analysis of results and playing with featuremaps  
 
@@ -32,7 +40,7 @@ plt.imshow(learning_curves)
 
 
 
-![png](output_3_1.png)
+![png](/img/post4/output_3_1.png)
 
 
 Using the following function we can get features from defined layer for each features.
@@ -84,7 +92,7 @@ plt.imshow(class0_6)
 
 
 
-![png](output_7_1.png)
+![png]((/img/post4/output_7_1.png)
 
 
 
@@ -102,7 +110,7 @@ plt.imshow(class7_11)
 
 
 
-![png](output_8_1.png)
+![png]((/img/post4/output_8_1.png)
 
 
 
@@ -120,7 +128,7 @@ plt.imshow(class12_14)
 
 
 
-![png](output_9_1.png)
+![png]((/img/post4/output_9_1.png)
 
 
 Using R I plotted confusion matrix of predicted and target values of test set.
@@ -139,7 +147,7 @@ plt.imshow(confusion_m)
 
 
 
-![png](output_11_1.png)
+![png]((/img/post4/output_11_1.png)
 
 
 The last but not least fact is that in order to prevent overfitting all classes were splited into stritified folders (to save the distribution between classes in train and test sets) before training the model.
@@ -159,7 +167,7 @@ plt.imshow(train_dist)
 
 
 
-![png](output_13_1.png)
+![png]((/img/post4/output_13_1.png)
 
 
 
@@ -176,7 +184,7 @@ plt.imshow(test_dist)
 
 
 
-![png](output_14_1.png)
+![png]((/img/post4/output_14_1.png)
 
 
 
