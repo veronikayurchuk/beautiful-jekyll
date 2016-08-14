@@ -47,7 +47,7 @@ caffe.__file__
 
 
 
-    '/home/veronika/materials/cv/detection/caffe/python/caffe/__init__.pyc'
+'/home/veronika/materials/cv/detection/caffe/python/caffe/__init__.pyc'
 
 
 
@@ -202,9 +202,9 @@ top_xmax = det_xmax[top_indices]
 top_ymax = det_ymax[top_indices]
 ```
 
-### The result of object detection you may find at the end of the blog.
-### The algorithm, that I used for object detection is SSD (Single Shot MultiBox Detector)
-### All additional information you may find here https://github.com/weiliu89/caffe/tree/ssd
+The result of object detection you may find at the end of the blog.
+The algorithm, that I used for object detection is SSD (Single Shot MultiBox Detector)
+All additional information you may find here <https://github.com/weiliu89/caffe/tree/ssd>
 
 
 ```python
