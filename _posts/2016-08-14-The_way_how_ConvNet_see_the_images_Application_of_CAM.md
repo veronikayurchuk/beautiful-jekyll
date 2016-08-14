@@ -33,7 +33,7 @@ Image(filename="/home/veronika/materials/cv/CAM/newstr.png")
 
 
 
-![png](output_5_0.png)
+![png](/img/output_5_0.png)
 
 
 
@@ -54,7 +54,7 @@ Image(filename="/home/veronika/materials/cv/CAM/mod2/mod2.png")
 
 
 
-![png](output_8_0.png)
+![png](/img/output_8_0.png)
 
 
 
@@ -191,7 +191,7 @@ plt.imshow(image)
 
 
 
-![png](output_23_1.png)
+![png](/img/output_23_1.png)
 
 
 Plotting a heatmap of input image.
@@ -207,7 +207,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](/img/output_25_0.png)
 
 
 **It is fantastic!** As we can see in order to predict class *music_playing* the ConvNet "looked" only at small region that is a musical instrument!
@@ -221,7 +221,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/6.png", width=42
 
 
 
-![png](output_27_0.png)
+![png](/img/output_27_0.png)
 
 
 
@@ -233,7 +233,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/17.png", width=4
 
 
 
-![png](output_28_0.png)
+![png](/img/output_28_0.png)
 
 
 
@@ -245,7 +245,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/0.png", width=42
 
 
 
-![png](output_29_0.png)
+![png](/img/output_29_0.png)
 
 
 
@@ -260,7 +260,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/1.png", width=42
 
 
 
-![png](output_31_0.png)
+![png](/img/output_31_0.png)
 
 
 
@@ -272,7 +272,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/10.png", width=4
 
 
 
-![png](output_32_0.png)
+![png](/img/output_32_0.png)
 
 
 
@@ -284,7 +284,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/3.png", width=42
 
 
 
-![png](output_33_0.png)
+![png](/img/output_33_0.png)
 
 
 
@@ -300,7 +300,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/25.png", width=4
 
 
 
-![png](output_36_0.png)
+![png](/img/output_36_0.png)
 
 
 
@@ -312,7 +312,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/9.png", width=42
 
 
 
-![png](output_37_0.png)
+![png](/img/output_37_0.png)
 
 
 
@@ -324,7 +324,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/13.png", width=4
 
 
 
-![png](output_38_0.png)
+![png](/img/output_38_0.png)
 
 
 
@@ -336,7 +336,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/2.png", width=42
 
 
 
-![png](output_39_0.png)
+![png](/img/output_39_0.png)
 
 
 
@@ -348,7 +348,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/7.png", width=42
 
 
 
-![png](output_40_0.png)
+![png](/img/output_40_0.png)
 
 
 
@@ -360,7 +360,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/8.png", width=42
 
 
 
-![png](output_41_0.png)
+![png](/img/output_41_0.png)
 
 
 
@@ -372,7 +372,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/11.png", width=4
 
 
 
-![png](output_42_0.png)
+![png](/img/output_42_0.png)
 
 
 
@@ -384,7 +384,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/21.png", width=4
 
 
 
-![png](output_43_0.png)
+![png](/img/output_43_0.png)
 
 
 
@@ -396,7 +396,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/16.png", width=4
 
 
 
-![png](output_44_0.png)
+![png](/img/output_44_0.png)
 
 
 
@@ -408,7 +408,7 @@ Image(filename="/home/veronika/materials/cv/CAM/images_examples/18.png", width=4
 
 
 
-![png](output_45_0.png)
+![png](/img/output_45_0.png)
 
 
 
