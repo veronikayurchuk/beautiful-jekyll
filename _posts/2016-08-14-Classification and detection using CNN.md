@@ -12,7 +12,7 @@ Today I will write about my experience with Convolutional Neural Networks! I wil
 
 ### Let's start!
 
-### First step is importing all libraries and setting up necessary version of Caffe.
+First step is importing all libraries and setting up necessary version of Caffe.
 
 
 ```python
@@ -37,7 +37,7 @@ import caffe
       warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
 
 
-### It is very important to mention here, don't forget to install caffe from the git. And check do you import correct version of caffe framework.
+It is very important to mention here, don't forget to install caffe from the git. And check do you import correct version of caffe framework.
 
 
 ```python
@@ -70,7 +70,7 @@ text_format.Merge(str(file.read()), labelmap)
 
 
 
-### The labelmap_voc.prototxt consist of number of label and corresponed name.
+The labelmap_voc.prototxt consist of number of label and corresponed name.
 
 
 ```python
@@ -121,7 +121,7 @@ net = caffe.Net(model_def,      # defines the structure of the model
 
 ```
 
-### We have to transform input image in special way for Caffe.
+We have to transform input image in special way for Caffe.
 
 
 ```python
@@ -219,7 +219,7 @@ _{u'person': 2}_
 
 
 
-### Creating a simple function for image description.
+Creating a simple function for image description.
 
 
 ```python
@@ -236,16 +236,16 @@ def get_description(descr):
     return(text_descr)
 ```
 
-### The following part is about getting class activities label, that I have got using transfer learning.
-### A copuple of words about transfer learning. I got pretrained model for GoogLeNet topology and trained the model on MPII dataset. 
-### You may download the dataset here http://human-pose.mpi-inf.mpg.de/
-### I have increased learning rate in the last layer by a factor of 10 in comparison with learning rate in previous layers. The gradient descent optimization algorithm was Adam. 
-### My learning rate policy was
-##### base_lr: 0.0005
-##### lr_policy: "step"
-##### stepsize: 2000
+The following part is about getting class activities label, that I have got using transfer learning.
+A copuple of words about transfer learning. I got pretrained model for GoogLeNet topology and trained the model on MPII dataset. 
+You may download the dataset here http://human-pose.mpi-inf.mpg.de/
+I have increased learning rate in the last layer by a factor of 10 in comparison with learning rate in previous layers. The gradient descent optimization algorithm was Adam. 
+My learning rate policy was
+* base_lr: 0.0005
+* lr_policy: "step"
+* * stepsize: 2000
 
-### Moreover, I was able to get 95% accuracy on test set, that is 10% of whole dataset.
+Moreover, I was able to get 95% accuracy on test set, that is 10% of whole dataset.
 
 
 ```python
@@ -406,25 +406,13 @@ for i in xrange(top_conf.shape[0]):
 ### In addition, I would like to add some photos from test set.
 
 
-```python
-
-```
-
-
-
-
     <matplotlib.image.AxesImage at 0x7f5df97e2310>
-
 
 
 
 ![png](/img/post1/output_29_1.png)
 
 
-
-```python
-
-```
 
 
 
@@ -438,10 +426,6 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-```python
-
-```
-
 
 
 
@@ -452,11 +436,6 @@ for i in xrange(top_conf.shape[0]):
 
 ![png](/img/post1/output_31_1.png)
 
-
-
-```python
-
-```
 
 
 
@@ -470,22 +449,10 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-```python
-
-```
-
-
-
 
     <matplotlib.image.AxesImage at 0x7f5df951c990>
 
 
 
-
 ![png](/img/post1/output_33_1.png)
 
-
-
-```python
-
-```
