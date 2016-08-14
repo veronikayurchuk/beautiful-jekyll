@@ -18,6 +18,8 @@ The best optimization algorithm was ***Adam***, the best topology was GoogLeNet 
 * stepsize: 2000
 
 All files for trainig models and my pre-trained weights you may find in the github repo.
+Don't miss __[Part 1](https://veronikayurchuk.github.io/2016-08-14-Classification-and-detection-using-CNN/)__ - the main part about Classification and Detection algorithms using Convolutional Neural Networks.
+
 
 You may find the plot of learning curves below:
 
