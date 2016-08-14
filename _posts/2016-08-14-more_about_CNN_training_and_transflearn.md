@@ -2,7 +2,7 @@
 layout: post
 title: More about CNN training and transfer learning
 subtitle: by Veronika Yurchuk
-bigimg: /img/img11.jpg
+bigimg: /img/img2.jpg
 show-avatar: false
 ---
 
