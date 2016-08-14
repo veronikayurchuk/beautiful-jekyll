@@ -15,7 +15,7 @@ Image(filename="/home/veronika/materials/cv/CAM/framework.jpg")
 
 
 
-![jpeg](output_2_0.jpeg)
+![jpeg](/img/output_2_0.jpeg)
 
 
 
