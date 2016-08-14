@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Classes distribution by probabilities in all testset
+title: Classes distribution by probabilities in all testset. Part 2.2
 subtitle: by Veronika Yurchuk
 bigimg: /img/img12.jpg
 show-avatar: false
@@ -11,6 +11,8 @@ Class distribution by probabilities in all test dataset
 ================
 
 This file is written using R. Just because I love R and it is very easy to visualize any plots with ***ggplot*** library.
+
+The csv file is a dataframe, that we got in previous post in [Part2](ngxsns)
 
 ``` r
 data_to_plot = read.csv("/home/veronika/materials/cv/detection/total_classes.csv")
