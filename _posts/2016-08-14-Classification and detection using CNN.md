@@ -1,3 +1,11 @@
+---
+layout: post
+title: The way how ConvNet see the images. CAM algorithm implementation
+subtitle: by Veronika Yurchuk
+bigimg: /img/path.jpg
+show-avatar: false
+---
+
 
 ### Hello all who are interested in Deep Learning! I am happy to see you here!
 Today I will write about my experience with Convolutional Neural Networks! I will describe here how to get image description. The image description will be consist of two parts. First one is summary about objects in the image, that are all classes that ConvNet found with given probability and number of objects per each class. Second part is type of activity in the image. First part of image description may be solved by detection task. I will use for it SSD algorithm. Second is classification task. For this task I will have to train CNN using pretrained model from ImageNet and apply transfer learning techique. Caffe framework will help me with all tasks.
@@ -89,8 +97,7 @@ labelmap.item[2].label
 
 
 
-
-    2
+_2_
 
 
 
@@ -151,7 +158,7 @@ plt.imshow(image)
 
 
 
-![png](output_14_1.png)
+![png](/img/post1/output_14_1.png)
 
 
 
@@ -167,7 +174,7 @@ detections.shape
 
 
 
-    (1, 1, 16, 7)
+_(1, 1, 16, 7)_
 
 
 
@@ -208,7 +215,7 @@ descr
 
 
 
-    {u'person': 2}
+_{u'person': 2}_
 
 
 
@@ -393,7 +400,7 @@ for i in xrange(top_conf.shape[0]):
 ```
 
 
-![png](output_27_0.png)
+![png](/img/post1/output_27_0.png)
 
 
 ### In addition, I would like to add some photos from test set.
@@ -411,7 +418,7 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-![png](output_29_1.png)
+![png](/img/post1/output_29_1.png)
 
 
 
@@ -427,7 +434,7 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-![png](output_30_1.png)
+![png](/img/post1/output_30_1.png)
 
 
 
@@ -443,7 +450,7 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-![png](output_31_1.png)
+![png](/img/post1/output_31_1.png)
 
 
 
@@ -459,7 +466,7 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-![png](output_32_1.png)
+![png](/img/post1/output_32_1.png)
 
 
 
@@ -475,7 +482,7 @@ for i in xrange(top_conf.shape[0]):
 
 
 
-![png](output_33_1.png)
+![png](/img/post1/output_33_1.png)
 
 
 
