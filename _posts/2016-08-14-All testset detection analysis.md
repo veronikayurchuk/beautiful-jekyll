@@ -1,6 +1,6 @@
 ---
 layout: post
-title: All testset detection analysis
+title: All testset detection analysis. Part 2
 subtitle: by Veronika Yurchuk
 bigimg: /img/img13.jpg
 show-avatar: false
@@ -93,7 +93,7 @@ transformer.set_channel_swap('data', (2,1,0))  # the reference model has channel
 labels = pd.read_csv("/home/veronika/materials/cv/cv_organizer/mydata/test_labels.csv",
                     sep = " ", header = None)
 ```
-
+The following function is actually detects all objects that have higher probability that __conf_level__ for all images that are in test set.
 
 ```python
 def get_object_descr(path_to_test, conf_level):
@@ -344,7 +344,7 @@ totaldata
 
 
 The next step was dataframe transformation, that is needed for plotting barplots using ggplot library.
-More details are in the next post.
+More details are in the next post. The visualization of the dataframe is in the [Part 2.2](bsbgsyhsyhns)
 
 
 ```python
