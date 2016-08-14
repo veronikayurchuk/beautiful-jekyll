@@ -12,7 +12,7 @@ Class distribution by probabilities in all test dataset
 
 This file is written using R. Just because I love R and it is very easy to visualize any plots with ***ggplot*** library.
 
-The csv file is a dataframe, that we got in previous post in [Part2](ngxsns)
+The csv file is a dataframe, that we got in previous post in [Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)
 
 ``` r
 data_to_plot = read.csv("/home/veronika/materials/cv/detection/total_classes.csv")
