@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Classification and Detection using CNN for MPII dataset
+title: Classification and Detection using CNN for MPII dataset.Part 1.
 subtitle: by Veronika Yurchuk
 bigimg: /img/img14.jpg
 show-avatar: false
@@ -10,7 +10,16 @@ show-avatar: false
 ### Hello all who are interested in Deep Learning! I am happy to see you here!
 Today I will write about my experience with Convolutional Neural Networks! I will describe here how to get image description. The image description will be consist of two parts. First one is summary about objects in the image, that are all classes that ConvNet found with given probability and number of objects per each class. Second part is type of activity in the image. First part of image description may be solved by detection task. I will use for it SSD algorithm. Second is classification task. For this task I will have to train CNN using pretrained model from ImageNet and apply transfer learning techique. Caffe framework will help me with all tasks.
 
-### Let's start!
+
+This is a main post about Classification and Detection mathods using CNN. 
+I decided to go deeper and analyse my whole test set. The analysis about distribution of classes with different certainty of model you may read in 
+*** [Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)***
+The plot obtained a dataframe from second part is in the ***[Part2.2](https://veronikayurchuk.github.io/2016-08-14-Classes-dist-by-probs/)***
+If you are interested in some details or additional information about the training process, please read ***[Part3](https://veronikayurchuk.github.io/2016-08-14-more_about_CNN_training_and_transflearn/)***
+
+
+
+Let's start!
 
 First step is importing all libraries and setting up necessary version of Caffe.
 
@@ -456,3 +465,5 @@ for i in xrange(top_conf.shape[0]):
 
 ![png](/img/post1/output_33_1.png)
 
+
+This is the end of main post about Classification and Detection mathods using CNN. I decided to go deeper and analyse my test set. The analysis about distribution of classes with different certainty of model you may read in [Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)
