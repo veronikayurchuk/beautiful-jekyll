@@ -1,3 +1,10 @@
+---
+layout: post
+title: The way how ConvNet see the images. CAM algorithm implementation
+subtitle: by Veronika Yurchuk
+bigimg: /img/path.jpg
+show-avatar: false
+---
 
 ### In this small post I decided to play more with SSD. My goal was to count all objects per all classes that Network was possible to detect. Also, it was interesting how class distribution change per different Neural Network's certainty.
 
