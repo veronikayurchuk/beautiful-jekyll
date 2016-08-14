@@ -2,7 +2,7 @@
 layout: post
 title: Classes distribution by probabilities in all testset
 subtitle: by Veronika Yurchuk
-bigimg: /img/path.jpg
+bigimg: /img/img12.jpg
 show-avatar: false
 ---
 
