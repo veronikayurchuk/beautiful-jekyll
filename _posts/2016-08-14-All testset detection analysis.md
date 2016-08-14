@@ -344,7 +344,7 @@ totaldata
 
 
 The next step was dataframe transformation, that is needed for plotting barplots using ggplot library.
-More details are in the next post. The visualization of the dataframe is in the [Part 2.2](bsbgsyhsyhns)
+More details are in the next post. The visualization of the dataframe is in the [Part 2.2](https://veronikayurchuk.github.io/2016-08-14-Classes-dist-by-probs/)
 
 
 ```python
