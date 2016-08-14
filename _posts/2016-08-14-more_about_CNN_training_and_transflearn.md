@@ -12,10 +12,10 @@ show-avatar: false
 ### In order to train model for activity classification I used pre-trained model, trained on ImageNet. The next step was to apply transfer learning. What is it? The main idea is to use weights that were trained on ImageNet and change them a bit to let them learn from other dataset. Important to mention that we have to change learning rate too. It should be smaller for layers that are the same with original model and be heiger for new layers. Next step is fine-tuning hyperparameters.
 
 ### After fine-tuning various models and trying lots of learning rate policies, we got our best result with ***accuracy = 95%*** on test set, that is 10% of all MPII dataset. I have tried Adam, RMSProp and Momentum stochastic gradient optimization algorithms.
-### The best optimization algorithm was ***Adam***, the best topology was GoogLeNet and my learning rate policy:
-base_lr: 0.0005
-lr_policy: "step"
-stepsize: 2000
+The best optimization algorithm was ***Adam***, the best topology was GoogLeNet and my learning rate policy:
+* base_lr: 0.0005
+* lr_policy: "step"
+* stepsize: 2000
 
 ### All files for trainig models and my pre-trained weights you may find in the github repo.
 
@@ -92,7 +92,7 @@ plt.imshow(class0_6)
 
 
 
-![png]((/img/post4/output_7_1.png)
+![png](/img/post4/output_7_1.png)
 
 
 
@@ -110,7 +110,7 @@ plt.imshow(class7_11)
 
 
 
-![png]((/img/post4/output_8_1.png)
+![png](/img/post4/output_8_1.png)
 
 
 
@@ -128,7 +128,7 @@ plt.imshow(class12_14)
 
 
 
-![png]((/img/post4/output_9_1.png)
+![png](/img/post4/output_9_1.png)
 
 
 Using R I plotted confusion matrix of predicted and target values of test set.
@@ -147,7 +147,7 @@ plt.imshow(confusion_m)
 
 
 
-![png]((/img/post4/output_11_1.png)
+![png](/img/post4/output_11_1.png)
 
 
 The last but not least fact is that in order to prevent overfitting all classes were splited into stritified folders (to save the distribution between classes in train and test sets) before training the model.
@@ -167,7 +167,7 @@ plt.imshow(train_dist)
 
 
 
-![png]((/img/post4/output_13_1.png)
+![png](/img/post4/output_13_1.png)
 
 
 
@@ -184,7 +184,7 @@ plt.imshow(test_dist)
 
 
 
-![png]((/img/post4/output_14_1.png)
+![png](/img/post4/output_14_1.png)
 
 
 
