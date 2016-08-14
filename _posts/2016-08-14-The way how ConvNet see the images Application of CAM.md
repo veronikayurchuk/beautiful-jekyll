@@ -2,7 +2,7 @@
 layout: post
 title: The way how ConvNet see the images. CAM algorithm implementation
 subtitle: by Veronika Yurchuk
-bigimg: /img/path.jpg
+bigimg: /img/img10.jpg
 show-avatar: false
 ---
 
