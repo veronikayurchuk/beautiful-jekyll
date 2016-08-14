@@ -1,7 +1,14 @@
+---
+layout: post
+title: The way how ConvNet see the images. CAM algorithm implementation
+subtitle: by Veronika Yurchuk
+bigimg: /img/path.jpg
+show-avatar: false
+---
+
+
 Class distribution by probabilities in all test dataset
 ================
-Veronika YUrchuk
-9 августа 2016
 
 ``` r
 data_to_plot = read.csv("/home/veronika/materials/cv/detection/total_classes.csv")
@@ -40,4 +47,4 @@ grid.arrange(p1, p2, ncol=5, nrow=1, layout_matrix = rbind(c(1,1,1,1,2)),
              top = "Classes distribution by model's certainty")
 ```
 
-![](classes_distr_by_probs.nojekyll_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![](/post3/probs_distr.png)
