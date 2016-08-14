@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The way how ConvNet see the images. CAM algorithm implementation
+title: Classes distribution by probabilities in all testset
 subtitle: by Veronika Yurchuk
 bigimg: /img/path.jpg
 show-avatar: false
@@ -47,4 +47,4 @@ grid.arrange(p1, p2, ncol=5, nrow=1, layout_matrix = rbind(c(1,1,1,1,2)),
              top = "Classes distribution by model's certainty")
 ```
 
-![](/post3/probs_distr.png)
+![](/img/post3/probs_distr.png)
