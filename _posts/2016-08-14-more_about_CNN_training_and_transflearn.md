@@ -2,7 +2,7 @@
 layout: post
 title: More about CNN training and transfer learning
 subtitle: by Veronika Yurchuk
-bigimg: /img/img8.jpg
+bigimg: /img/img7.jpg
 show-avatar: false
 ---
 
@@ -17,7 +17,7 @@ The best optimization algorithm was ***Adam***, the best topology was GoogLeNet 
 * lr_policy: "step"
 * stepsize: 2000
 
-### All files for trainig models and my pre-trained weights you may find in the github repo.
+All files for trainig models and my pre-trained weights you may find in the github repo.
 
 You may find the plot of learning curves below:
 
