@@ -11,12 +11,12 @@ show-avatar: false
 Today I will write about my experience with Convolutional Neural Networks! I will describe here how to get image description. The image description will be consist of two parts. First one is summary about objects in the image, that are all classes that ConvNet found with given probability and number of objects per each class. Second part is type of activity in the image. First part of image description may be solved by detection task. I will use for it SSD algorithm. Second is classification task. For this task I will have to train CNN using pretrained model from ImageNet and apply transfer learning techique. Caffe framework will help me with all tasks.
 
 
-This is a main post about Classification and Detection mathods using CNN. 
+This is a main post about Classification and Detection methods using Convolutional Neural Networks. 
 I decided to go deeper and analyse my whole test set. The analysis about distribution of classes with different certainty of model you may read in 
 * ***[Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)***
-The plot obtained a dataframe from second part is in the 
+The plot of distribution per classes with different levels of probabilities is in the 
 * ***[Part2.2](https://veronikayurchuk.github.io/2016-08-14-Classes-dist-by-probs/)***
-If you are interested in some details or additional information about the training process, please read 
+If you are interested in some details or additional information about training process, please read 
 * ***[Part3](https://veronikayurchuk.github.io/2016-08-14-more_about_CNN_training_and_transflearn/)***
 
 
@@ -81,7 +81,7 @@ text_format.Merge(str(file.read()), labelmap)
 
 
 
-The labelmap_voc.prototxt consist of number of label and corresponed name.
+The labelmap_voc.prototxt consist of number of labels and corresponed names.
 
 
 ```python
@@ -189,7 +189,7 @@ _(1, 1, 16, 7)_
 
 
 
-In order to get bboxes we use the following code.
+In order to get bounding boxes we use the following code.
 
 
 ```python
@@ -247,9 +247,9 @@ def get_description(descr):
     return(text_descr)
 ```
 
-The following part is about getting class activities label, that I have got using transfer learning.
+The following part is about getting class activities labels, that I have got using transfer learning.
 A copuple of words about transfer learning. I got pretrained model for GoogLeNet topology and trained the model on MPII dataset. 
-You may download the dataset here http://human-pose.mpi-inf.mpg.de/
+You may download the dataset here <http://human-pose.mpi-inf.mpg.de/>
 I have increased learning rate in the last layer by a factor of 10 in comparison with learning rate in previous layers. The gradient descent optimization algorithm was Adam. 
 My learning rate policy was
 _* base_lr: 0.0005
@@ -468,4 +468,4 @@ for i in xrange(top_conf.shape[0]):
 ![png](/img/post1/output_33_1.png)
 
 
-This is the end of main post about Classification and Detection mathods using CNN. I decided to go deeper and analyse my test set. The analysis about distribution of classes with different certainty of model you may read in [Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)
+This is the end of main post about Classification and Detection methods using CNN. I decided to go deeper and analyse my test set. The analysis about distributions of classes with different certainties of model you may read in [Part2](https://veronikayurchuk.github.io/2016-08-14-All-testset-detection-analysis/)
