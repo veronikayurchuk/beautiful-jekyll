@@ -6,7 +6,7 @@ bigimg: /img/img13.jpg
 show-avatar: false
 ---
 
-### In this small post I decided to play more with SSD. My goal was to count all objects per all classes that Network was possible to detect. Also, it was interesting how class distribution change per different Neural Network's certainty.
+### In this small post I decided to play more with SSD. My goal was to count all objects per all classes that Network was able to detect. Also, it was interesting how class distribution changes per different Neural Network's certainty.
 
 
 ```python
