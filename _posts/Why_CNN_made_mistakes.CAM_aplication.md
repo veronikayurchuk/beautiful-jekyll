@@ -478,7 +478,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_21_0.png)
+![png](/img/post6/output_21_0.png)
 
 
 
@@ -489,7 +489,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_21_2.png)
+![png](/img/post6/output_21_2.png)
 
 
 
@@ -500,7 +500,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_22_0.png)
+![png](/img/post6/output_22_0.png)
 
 
 
@@ -511,7 +511,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_22_2.png)
+![png](/img/post6/output_22_2.png)
 
 
 
@@ -522,7 +522,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_23_0.png)
+![png](/img/post6/output_23_0.png)
 
 
 
@@ -533,7 +533,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_23_2.png)
+![png](/img/post6/output_23_2.png)
 
 
 
@@ -544,7 +544,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_24_0.png)
+![png](/img/post6/output_24_0.png)
 
 
 
@@ -555,7 +555,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_24_2.png)
+![png](/img/post6/output_24_2.png)
 
 
 
@@ -566,7 +566,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_25_0.png)
+![png](/img/post6/output_25_0.png)
 
 
 
@@ -577,7 +577,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_25_2.png)
+![png](/img/post6/output_25_2.png)
 
 
 
@@ -588,7 +588,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_26_0.png)
+![png](/img/post6/output_26_0.png)
 
 
 
@@ -599,7 +599,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_26_2.png)
+![png](/img/post6/output_26_2.png)
 
 
 
@@ -610,7 +610,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_27_0.png)
+![png](/img/post6/output_27_0.png)
 
 
 
@@ -621,7 +621,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_27_2.png)
+![png](/img/post6/output_27_2.png)
 
 
 
@@ -632,7 +632,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_28_0.png)
+![png](/img/post6/output_28_0.png)
 
 
 
@@ -643,7 +643,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_28_2.png)
+![png](/img/post6/output_28_2.png)
 
 
 
@@ -654,7 +654,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_29_0.png)
+![png](/img/post6/output_29_0.png)
 
 
 
@@ -665,7 +665,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_29_2.png)
+![png](/img/post6/output_29_2.png)
 
 
 
@@ -676,7 +676,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_30_0.png)
+![png](/img/post6/output_30_0.png)
 
 
 
@@ -687,7 +687,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_30_2.png)
+![png](/img/post6/output_30_2.png)
 
 
 
@@ -698,7 +698,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_31_0.png)
+![png](/img/post6/output_31_0.png)
 
 
 
@@ -709,7 +709,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_31_2.png)
+![png](/img/post6/output_31_2.png)
 
 
 
@@ -720,7 +720,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_32_0.png)
+![png](/img/post6/output_32_0.png)
 
 
 
@@ -731,7 +731,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_32_2.png)
+![png](/img/post6/output_32_2.png)
 
 
 
@@ -742,7 +742,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_33_0.png)
+![png](/img/post6/output_33_0.png)
 
 
 
@@ -753,7 +753,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_33_2.png)
+![png](/img/post6/output_33_2.png)
 
 
 
@@ -764,7 +764,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_34_0.png)
+![png](/img/post6/output_34_0.png)
 
 
 
@@ -775,7 +775,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_34_2.png)
+![png](/img/post6/output_34_2.png)
 
 
 
@@ -786,7 +786,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_35_0.png)
+![png](/img/post6/output_35_0.png)
 
 
 
@@ -797,7 +797,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_35_2.png)
+![png](/img/post6/output_35_2.png)
 
 
 
@@ -808,7 +808,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_36_0.png)
+![png](/img/post6/output_36_0.png)
 
 
 
@@ -819,7 +819,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_36_2.png)
+![png](/img/post6/output_36_2.png)
 
 
 
@@ -830,7 +830,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_37_0.png)
+![png](/img/post6/output_37_0.png)
 
 
 
@@ -841,7 +841,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_37_2.png)
+![png](/img/post6/output_37_2.png)
 
 
 
@@ -852,7 +852,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_38_0.png)
+![png](/img/post6/output_38_0.png)
 
 
 
@@ -863,7 +863,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_38_2.png)
+![png](/img/post6/output_38_2.png)
 
 
 
@@ -874,7 +874,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_39_0.png)
+![png](/img/post6/output_39_0.png)
 
 
 
@@ -885,7 +885,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_39_2.png)
+![png](/img/post6/output_39_2.png)
 
 
 
@@ -896,7 +896,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_40_0.png)
+![png](/img/post6/output_40_0.png)
 
 
 
@@ -907,7 +907,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_40_2.png)
+![png](/img/post6/output_40_2.png)
 
 
 
@@ -918,7 +918,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_41_0.png)
+![png](/img/post6/output_41_0.png)
 
 
 
@@ -929,7 +929,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_41_2.png)
+![png](/img/post6/output_41_2.png)
 
 
 
@@ -940,7 +940,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_42_0.png)
+![png](/img/post6/output_42_0.png)
 
 
 
@@ -951,7 +951,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_42_2.png)
+![png](/img/post6/output_42_2.png)
 
 
 
@@ -962,7 +962,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_43_0.png)
+![png](/img/post6/output_43_0.png)
 
 
 
@@ -973,7 +973,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_43_2.png)
+![png](/img/post6/output_43_2.png)
 
 
 
@@ -984,7 +984,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_44_0.png)
+![png](/img/post6/output_44_0.png)
 
 
 
@@ -995,7 +995,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_44_2.png)
+![png](/img/post6/output_44_2.png)
 
 
 
@@ -1006,7 +1006,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_45_0.png)
+![png](/img/post6/output_45_0.png)
 
 
 
@@ -1017,7 +1017,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_45_2.png)
+![png](/img/post6/output_45_2.png)
 
 
 
@@ -1028,7 +1028,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_46_0.png)
+![png](/img/post6/output_46_0.png)
 
 
 
@@ -1039,7 +1039,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_46_2.png)
+![png](/img/post6/output_46_2.png)
 
 
 
@@ -1050,7 +1050,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_47_0.png)
+![png](/img/post6/output_47_0.png)
 
 
 
@@ -1061,7 +1061,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_47_2.png)
+![png](/img/post6/output_47_2.png)
 
 
 
@@ -1072,7 +1072,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_48_0.png)
+![png](/img/post6/output_48_0.png)
 
 
 
@@ -1083,7 +1083,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_48_2.png)
+![png](/img/post6/output_48_2.png)
 
 
 
@@ -1094,7 +1094,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_49_0.png)
+![png](/img/post6/output_49_0.png)
 
 
 
@@ -1105,7 +1105,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_49_2.png)
+![png](/img/post6/output_49_2.png)
 
 
 
@@ -1116,7 +1116,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_50_0.png)
+![png](/img/post6/output_50_0.png)
 
 
 
@@ -1127,7 +1127,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_50_2.png)
+![png](/img/post6/output_50_2.png)
 
 
 
@@ -1138,7 +1138,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_51_0.png)
+![png](/img/post6/output_51_0.png)
 
 
 
@@ -1149,7 +1149,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_51_2.png)
+![png](/img/post6/output_51_2.png)
 
 
 
@@ -1160,7 +1160,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_52_0.png)
+![png](/img/post6/output_52_0.png)
 
 
 
@@ -1171,7 +1171,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_52_2.png)
+![png](/img/post6/output_52_2.png)
 
 
 
@@ -1182,7 +1182,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_53_0.png)
+![png](/img/post6/output_53_0.png)
 
 
 
@@ -1193,7 +1193,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_53_2.png)
+![png](/img/post6/output_53_2.png)
 
 
 
@@ -1204,7 +1204,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_54_0.png)
+![png](/img/post6/output_54_0.png)
 
 
 
@@ -1215,7 +1215,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_54_2.png)
+![png](/img/post6/output_54_2.png)
 
 
 
@@ -1226,7 +1226,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_55_0.png)
+![png](/img/post6/output_55_0.png)
 
 
 
@@ -1237,7 +1237,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_55_2.png)
+![png](/img/post6/output_55_2.png)
 
 
 
@@ -1248,7 +1248,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_56_0.png)
+![png](/img/post6/output_56_0.png)
 
 
 
@@ -1259,7 +1259,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_56_2.png)
+![png](/img/post6/output_56_2.png)
 
 
 
@@ -1270,7 +1270,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_57_0.png)
+![png](/img/post6/output_57_0.png)
 
 
 
@@ -1281,7 +1281,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_57_2.png)
+![png](/img/post6/output_57_2.png)
 
 
 
@@ -1292,7 +1292,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_58_0.png)
+![png](/img/post6/output_58_0.png)
 
 
 
@@ -1303,7 +1303,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_58_2.png)
+![png](/img/post6/output_58_2.png)
 
 
 
@@ -1314,7 +1314,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_59_0.png)
+![png](/img/post6/output_59_0.png)
 
 
 
@@ -1325,7 +1325,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_59_2.png)
+![png](/img/post6/output_59_2.png)
 
 
 
@@ -1336,7 +1336,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_60_0.png)
+![png](/img/post6/output_60_0.png)
 
 
 
@@ -1347,7 +1347,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_60_2.png)
+![png](/img/post6/output_60_2.png)
 
 
 
@@ -1358,7 +1358,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_61_0.png)
+![png](/img/post6/output_61_0.png)
 
 
 
@@ -1369,7 +1369,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_61_2.png)
+![png](/img/post6/output_61_2.png)
 
 
 
@@ -1380,7 +1380,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_62_0.png)
+![png](/img/post6/output_62_0.png)
 
 
 
@@ -1391,7 +1391,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_62_2.png)
+![png](/img/post6/output_62_2.png)
 
 
 
