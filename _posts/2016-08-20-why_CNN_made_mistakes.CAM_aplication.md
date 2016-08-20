@@ -2,7 +2,7 @@
 layout: post
 title: Why my model made mistakes. Application of CAM. Part 2
 subtitle: by Veronika Yurchuk
-bigimg: /img/img13.jpg
+bigimg: /img/img16.jpg
 show-avatar: false
 ---
 
