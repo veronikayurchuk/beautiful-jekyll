@@ -1,3 +1,10 @@
+---
+layout: post
+title: Why my model made mistakes. Application of CAM. Part 2
+subtitle: by Veronika Yurchuk
+bigimg: /img/img13.jpg
+show-avatar: false
+---
 
 I was very impressed after analysing how Convolutional Neural Network see the image. More about it in the [link](https://veronikayurchuk.github.io/2016-08-14-The-way-how-ConvNet-see-the-images-Application-of-CAM/).
 
