@@ -22,7 +22,7 @@ plt.imshow(confusion_m)
 
 
 
-![png](output_1_1.png)
+![png](/img/post6/output_1_1.png)
 
 
 
@@ -428,7 +428,7 @@ wrong_predicted.shape
 
 
 
-    (431, 6)
+    _(431, 6)_
 
 
 
@@ -441,10 +441,6 @@ wrong_predicted['nindex'] = range(431)
     A value is trying to be set on a copy of a slice from a DataFrame.
     Try using .loc[row_indexer,col_indexer] = value instead
     
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      if __name__ == '__main__':
-
-
 
 ```python
 wrong_predicted.head(7)
@@ -549,7 +545,7 @@ wrong_predicted.head(7)
 print("There are" + " " + str(wrong_predicted.shape[0])+" " + "wrong predicted images")
 ```
 
-    There are 431 wrong predicted images
+    _There are 431 wrong predicted images_
 
 
 
@@ -612,10 +608,6 @@ Now, we will look at most repetitive error cases (true class of image is "runnin
 ```python
 wrong_predicted.loc[wrong_predicted["true_label"] == 0][wrong_predicted["predicted_label"] == 11].head(12)
 ```
-
-    /usr/local/lib/python2.7/dist-packages/ipykernel/__main__.py:1: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
-      if __name__ == '__main__':
-
 
 
 
@@ -771,7 +763,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_27_0.png)
+![png](/img/post6/output_27_0.png)
 
 
 
@@ -782,7 +774,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_27_2.png)
+![png](/img/post6/output_27_2.png)
 
 
 In his case, the ConvNet didn't detect the person.
@@ -795,7 +787,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_29_0.png)
+![png](/img/post6/output_29_0.png)
 
 
 
@@ -806,7 +798,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_29_2.png)
+![png](/img/post6/output_29_2.png)
 
 
 Let's look at the next image. I think that it is not easy to detect the running activities at the image,as we can't see the whole person. Nevertheless, the probability of correct class is high.
@@ -819,7 +811,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_31_0.png)
+![png](/img/post6/output_31_0.png)
 
 
 
@@ -830,7 +822,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_31_2.png)
+![png](/img/post6/output_31_2.png)
 
 
 The same situation as above
@@ -843,7 +835,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_33_0.png)
+![png](/img/post6/output_33_0.png)
 
 
 
@@ -854,7 +846,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_33_2.png)
+![png](/img/post6/output_33_2.png)
 
 
 As we can see, ***not only the model made mistakes, but human too.*** As there are a lot of cases of not very clear labeling. You may check it looking at images bellow.
@@ -867,7 +859,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_35_0.png)
+![png](/img/post6/output_35_0.png)
 
 
 
@@ -878,7 +870,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_35_2.png)
+![png](/img/post6/output_35_2.png)
 
 
 
@@ -889,7 +881,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_36_0.png)
+![png](/img/post6/output_36_0.png)
 
 
 
@@ -900,7 +892,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_36_2.png)
+![png](/img/post6/output_36_2.png)
 
 
 
@@ -911,7 +903,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_37_0.png)
+![png](/img/post6/output_37_0.png)
 
 
 
@@ -922,7 +914,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_37_2.png)
+![png](/img/post6/output_37_2.png)
 
 
 
@@ -933,7 +925,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_38_0.png)
+![png](/img/post6/output_38_0.png)
 
 
 
@@ -944,7 +936,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_38_2.png)
+![png](/img/post6/output_38_2.png)
 
 
 
@@ -955,7 +947,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_39_0.png)
+![png](/img/post6/output_39_0.png)
 
 
 
@@ -966,7 +958,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_39_2.png)
+![png](/img/post6/output_39_2.png)
 
 
 
@@ -977,7 +969,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_40_0.png)
+![png](/img/post6/output_40_0.png)
 
 
 
@@ -988,7 +980,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_40_2.png)
+![png]/img/post6/output_40_2.png)
 
 
 
@@ -999,7 +991,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_41_0.png)
+![png](/img/post6/output_41_0.png)
 
 
 
@@ -1010,7 +1002,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_41_2.png)
+![png](/img/post6/output_41_2.png)
 
 
 
@@ -1021,7 +1013,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_42_0.png)
+![png](/img/post6/output_42_0.png)
 
 
 
@@ -1032,7 +1024,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_42_2.png)
+![png](/img/post6/output_42_2.png)
 
 
 
@@ -1043,7 +1035,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_43_0.png)
+![png](/img/post6/output_43_0.png)
 
 
 
@@ -1054,7 +1046,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_43_2.png)
+![png](/img/post6/output_43_2.png)
 
 
 
@@ -1065,7 +1057,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_44_0.png)
+![png](/img/post6/output_44_0.png)
 
 
 
@@ -1076,7 +1068,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_44_2.png)
+![png](/img/post6/output_44_2.png)
 
 
 
@@ -1087,7 +1079,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_45_0.png)
+![png](/img/post6/output_45_0.png)
 
 
 
@@ -1098,7 +1090,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_45_2.png)
+![png](/img/post6/output_45_2.png)
 
 
 
@@ -1109,7 +1101,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_46_0.png)
+![png](/img/post6/output_46_0.png)
 
 
 
@@ -1120,7 +1112,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_46_2.png)
+![png]/img/post6/(output_46_2.png)
 
 
 
@@ -1131,7 +1123,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_47_0.png)
+![png](/img/post6/output_47_0.png)
 
 
 
@@ -1142,7 +1134,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_47_2.png)
+![png](/img/post6/output_47_2.png)
 
 
 
@@ -1153,7 +1145,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_48_0.png)
+![png](/img/post6/output_48_0.png)
 
 
 
@@ -1164,7 +1156,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_48_2.png)
+![png](/img/post6/output_48_2.png)
 
 
 
@@ -1175,7 +1167,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_49_0.png)
+![png](/img/post6/output_49_0.png)
 
 
 
@@ -1186,7 +1178,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_49_2.png)
+![png](/img/post6/output_49_2.png)
 
 
 
@@ -1197,7 +1189,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_50_0.png)
+![png](/img/post6/output_50_0.png)
 
 
 
@@ -1208,7 +1200,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_50_2.png)
+![png](/img/post6/output_50_2.png)
 
 
 
@@ -1219,7 +1211,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_51_0.png)
+![png](/img/post6/output_51_0.png)
 
 
 
@@ -1230,7 +1222,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_51_2.png)
+![png](/img/post6/output_51_2.png)
 
 
 
@@ -1241,7 +1233,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_52_0.png)
+![png](/img/post6/output_52_0.png)
 
 
 
@@ -1252,7 +1244,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_52_2.png)
+![png](/img/post6/output_52_2.png)
 
 
 
@@ -1263,7 +1255,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_53_0.png)
+![png](/img/post6/output_53_0.png)
 
 
 
@@ -1274,7 +1266,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_53_2.png)
+![png](/img/post6/output_53_2.png)
 
 
 
@@ -1285,7 +1277,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_54_0.png)
+![png](/img/post6/output_54_0.png)
 
 
 
@@ -1296,7 +1288,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_54_2.png)
+![png](/img/post6/output_54_2.png)
 
 
 
@@ -1307,7 +1299,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_55_0.png)
+![png](/img/post6/output_55_0.png)
 
 
 
@@ -1318,7 +1310,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_55_2.png)
+![png](/img/post6/output_55_2.png)
 
 
 
@@ -1329,7 +1321,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_56_0.png)
+![png](/img/post6/output_56_0.png)
 
 
 
@@ -1340,7 +1332,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_56_2.png)
+![png](/img/post6/output_56_2.png)
 
 
 
@@ -1351,7 +1343,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_57_0.png)
+![png](/img/post6/output_57_0.png)
 
 
 
@@ -1362,7 +1354,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_57_2.png)
+![png](/img/post6/output_57_2.png)
 
 
 
@@ -1373,7 +1365,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_58_0.png)
+![png](/img/post6/output_58_0.png)
 
 
 
@@ -1384,7 +1376,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_58_2.png)
+![png](/img/post6/output_58_2.png)
 
 
 
@@ -1395,7 +1387,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_59_0.png)
+![png](/img/post6/output_59_0.png)
 
 
 
@@ -1406,7 +1398,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_59_2.png)
+![png](/img/post6/output_59_2.png)
 
 
 
@@ -1417,7 +1409,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_60_0.png)
+![png](/img/post6/output_60_0.png)
 
 
 
@@ -1428,7 +1420,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_60_2.png)
+![png](/img/post6/output_60_2.png)
 
 
 
@@ -1439,7 +1431,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_61_0.png)
+![png](/img/post6/output_61_0.png)
 
 
 
@@ -1450,7 +1442,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_61_2.png)
+![png](/img/post6/output_61_2.png)
 
 
 
@@ -1461,7 +1453,7 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 ```
 
 
-![png](output_62_0.png)
+![png](/img/post6/output_62_0.png)
 
 
 
@@ -1472,5 +1464,5 @@ plt.imshow(get_heat_map(n), alpha=0.4, interpolation='nearest')
 
 
 
-![png](output_62_2.png)
+![png](/img/post6/output_62_2.png)
 
