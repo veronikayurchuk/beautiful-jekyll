@@ -28,11 +28,12 @@ navbar-links:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
-  CV : "https://drive.google.com/open?id=0B_vSBSclcV1gOHhJU3k4WThZdzQ"
+  CV : 
+#   "https://drive.google.com/open?id=0B_vSBSclcV1gOHhJU3k4WThZdzQ"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/Vpfs8UUHsl4.png"
+avatar: 
 
 # --- Footer options --- #
 
